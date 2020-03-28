@@ -5,6 +5,8 @@ h1{
 p{
   text-align: center;
   color: orangered;
+  font-size: xx-large;
+  font-family: Jokerman;
 }
 
 app-footer{
