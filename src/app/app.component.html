@@ -3,16 +3,12 @@
 <p>
   <img id="pet_image" src="images/cat.PNG" alt="cat">
 
-  <img [src]="image1" alt="side 1"> <br>
+  <img [src]="image" alt="cat image"> <br>
 </p>
 
 <p>
-  <button id="cat_btn">Cat</button>  <button id="dog_btn">Dog</button>
+  <button (click)="cat()">Cat</button>  <button (click)="dog()">Dog</button> <button (click)="rabbit()">Rabbit</button>
 
-</p>
-
-<p>
-  <button (click)="roll()">Roll Dice</button>
 </p>
 
 
